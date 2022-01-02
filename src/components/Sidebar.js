@@ -18,19 +18,19 @@ const Sidebar = () => {
                 </div>
             </a>
             <figure className="sidebar__social.icons">
-                <a href=""><img src={facebook} alt="Facebook" className="sidebar__icon"/></a>
-                <a href=""><img src={instagram} alt="instagram" className="sidebar__icon"/></a>
+                <a href="https://www.facebook.com/hasan.chamdani"><img src={facebook} alt="Facebook" className="sidebar__icon"/></a>
+                <a href="https://www.instagram.com/hasan.chamdany/"><img src={instagram} alt="instagram" className="sidebar__icon"/></a>
 
             </figure>
             <div className="contact">
                 <div className="sidebar__item">
-                    <a href=""><img src={github} alt="github" className="sidebar__icon"/>github</a>
+                    <a href="https://github.com/hasanchamdany?tab=overview&from=2021-12-01&to=2021-12-31"><img src={github} alt="github" className="sidebar__icon"/>github</a>
                 </div>
                 <div className="sidebar__location">
                     <img src={pin} alt="location" className="sidebar__icon"/>
                     Gresik, Indonesia</div>
                 <div className="sidebar__item">hasanchamdany1@gmail.com</div>
-                <div className="sidebar__item">081330666660</div>
+                <div className="sidebar__item">081330666660</div>   
             </div>
         </div>
     )

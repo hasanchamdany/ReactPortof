@@ -5,6 +5,15 @@ body {
     background-attachment: fixed;
 }
 
+a{
+    text-decoration: none;
+    color: #354548;
+}
+a:hover{
+    text-decoration:none;
+    color: #000;
+}
+
 .container {
     padding-top: 50px;
 }
@@ -45,4 +54,32 @@ body {
 .sidebar__icon {
     width: 25px;
     height: 25px;
+}
+
+.sidebar__name{
+    font-family: Kaushan Script;
+    margin: 20px 0;
+}
+
+.sidebar__name>span {
+    color: #5a08dd
+}
+
+.sidebar__item{
+    margin-bottom: 6px;
+    padding-top: 6px;
+    height: 40px;
+    font-size: 1.05rem;
+}
+
+.sidebar__title{
+    color: #f1f1f1;
+    background-color: #5a08dd ;
+    border-radius: 30px;
+}
+
+.sidebar__contact{
+    background-color: #dbdddf;
+    padding: 2px 0;
+    border-radius: 20px;
 }

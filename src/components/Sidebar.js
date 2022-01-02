@@ -17,12 +17,12 @@ const Sidebar = () => {
                     <img src={tie} alt="CV" className="sidebar__icon"/> Download CV
                 </div>
             </a>
-            <figure className="sidebar__social.icons">
-                <a href="https://www.facebook.com/hasan.chamdani"><img src={facebook} alt="Facebook" className="sidebar__icon"/></a>
+            <figure className="sidebar__social-icons my-2">
+                <a href="https://www.facebook.com/hasan.chamdani"><img src={facebook} alt="Facebook" className="sidebar__icon mr-3"/></a>
                 <a href="https://www.instagram.com/hasan.chamdany/"><img src={instagram} alt="instagram" className="sidebar__icon"/></a>
 
             </figure>
-            <div className="contact">
+            <div className="sidebar__contact">
                 <div className="sidebar__item">
                     <a href="https://github.com/hasanchamdany?tab=overview&from=2021-12-01&to=2021-12-31"><img src={github} alt="github" className="sidebar__icon"/>github</a>
                 </div>

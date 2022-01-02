@@ -13,7 +13,7 @@ const Sidebar = () => {
             <div className="sidebar__name">Hasan <span>Chamdany</span> </div>
             <div className="sidebar__item sidebar__title"> Web and Android Developer</div>
             <a href="!#">
-                <div className="sidebar__item">
+                <div className="sidebar__item sidebar__cv">
                     <img src={tie} alt="CV" className="sidebar__icon"/> Download CV
                 </div>
             </a>
@@ -23,13 +23,13 @@ const Sidebar = () => {
 
             </figure>
             <div className="sidebar__contact">
-                <div className="sidebar__item">
-                    <a href="https://github.com/hasanchamdany?tab=overview&from=2021-12-01&to=2021-12-31"><img src={github} alt="github" className="sidebar__icon"/>github</a>
+                <div className="sidebar__item sidebar__github ">
+                    <a href="https://github.com/hasanchamdany?tab=overview&from=2021-12-01&to=2021-12-31"><img src={github} alt="github" className="sidebar__icon mr-2"/>github</a>
                 </div>
                 <div className="sidebar__location">
-                    <img src={pin} alt="location" className="sidebar__icon"/>
+                    <img src={pin} alt="location" className="sidebar__icon mr-2"/>
                     Gresik, Indonesia</div>
-                <div className="sidebar__item">hasanchamdany1@gmail.com</div>
+                <div className="sidebar__item ">hasanchamdany1@gmail.com</div>
                 <div className="sidebar__item">081330666660</div>   
             </div>
         </div>

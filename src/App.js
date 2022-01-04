@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import React from 'react';
 import Sidebar from './components/Sidebar'
+import Main from "./components/Main"
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
               <Sidebar />
           </div>
           <div className="col-lg-9 app__main-content">
-            main
+            <Main/>
           </div>
         </div>
       </div>

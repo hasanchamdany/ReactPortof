@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import React from 'react';
 import Sidebar from './components/Sidebar'
-import Main from "./components/Main"
+// import Main from "./components/Main"
 import Navbar from "./components/Navbar"
 
 function App() {

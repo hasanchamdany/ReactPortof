@@ -2,6 +2,7 @@
 import React from 'react';
 import Sidebar from './components/Sidebar'
 import Main from "./components/Main"
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
               <Sidebar />
           </div>
           <div className="col-lg-9 app__main-content">
-            <Main/>
+            <Navbar/>
+            {/* <Main/> */}
           </div>
         </div>
       </div>

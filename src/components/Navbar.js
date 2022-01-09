@@ -8,6 +8,7 @@ const Navbar = () => {
             <div className="navbar__active">
                 {active}
             </div>
+            
             <div className="navbar__items">
                 {active !== 'About' && 
                     <Link to="/">

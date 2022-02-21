@@ -1,12 +1,12 @@
 // import logo from './logo.svg';
 import React from 'react';
 import { BrowserRouter as Router} from "react-router-dom";
-// import {Route} from "react-router-dom";
+import {Route} from "react-router-dom";
 import Sidebar from './components/Sidebar';
 import Navbar from "./components/Navbar";
-// import About from './components/About';
-// import TechStack from './components/TechStack';
-// import Main from "./componen/ts/Main";
+import About from './components/About';
+import TechStack from './components/TechStack';
+import Main from "./components/Main";
 
 function App() {
   return (
@@ -19,13 +19,11 @@ function App() {
             </div>
             <div className="col-lg-9 app__main-content">
               <Navbar/>
-              {/* <Main/> */}
-                {/* <Route path="/" components={<About/>}/> */}
-                  {/* <About /> */}
-                {/* </Route> */}
-                {/* <Route path="/TechStack" components={<TechStack/>}/> */}
-                  {/* <TechStack /> */}
-                {/* </Route> */}
+              <Main/>
+                {/* <Route path="/" components={<About/>}/>
+                  <About />
+                <Route path="/TechStack" components={<TechStack/>}/>
+                  <TechStack/> */}
             </div>
           </div>
         </div>
